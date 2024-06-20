@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <div id="cart">Корзина</div>
+        </nav>
+    </header>
+
+    <h1>Все продукты</h1>
+    <div class="form">
+        <div>сортировка</div>
+        <select >
+            <option value="asc" selected>asc</option>
+            <option value="desc">desc</option>
+        </select>
+    </div>
+    <section class="all_products">
+
+    </section>
+
+    <div class="modalProducts">
+        <div class="modal_product_bg"></div>
+        <img src="">
+        <h2>Name:</h2>
+        <h2>Description:</h2>
+        <h2>Rating:</h2>
+        <h2>Price: $</h2>
+        <button>Добавить в корзину</button>
+    </div>
+   
+    
+    <div class="cart_wrap">
+        <div class="cart">
+            <div id="loader" class="loader hidden"></div>
+            <button id="close">Закрыть</button>
+            <div class="cart_products">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
